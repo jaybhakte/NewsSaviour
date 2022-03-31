@@ -1,4 +1,5 @@
 console.log("Project 3");
+console.log("News dekho");
 //intilize new api variables
 let country = 'in';
 let apiKey = 'f4235f152ea74884bf36641cbba76ff4';
