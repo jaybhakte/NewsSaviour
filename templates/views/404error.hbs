@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       {{>headerlinks}}
+</head>
+<body>
+  
+
+<!-- main-header -->
+<div class="container">
+{{>navbar}}
+  <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+              <!-- main header left -->
+          <div class="col-md-12 col-12 main_header_left align-items-center">
+            <figure class="errimg">
+                <img src="images/404page.png" class="img-fluid" alt="aboutimage">
+            </figure>
+
+            <p>Welcome to weather app</p>
+            <h1>{{errormsg}}</h1>
+            <a href="/" class="btn btn-primary">Go Back</a>
+          </div>
+        
+        </div>
+
+      </div>
+  </div>
+</div>   
+
+<!-- footer code -->
+{{>footer}}
+{{>jsfiles}}
+</body>
+</html>
